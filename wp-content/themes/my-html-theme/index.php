@@ -14,7 +14,7 @@
             </h1>
             <p>
               To Convert Your Viewers Into Business. A video monetization
-              platform for creating an exclusive video channel
+              platform for creating an exclusive video channel for yourst business.
             </p>
             <div class="btn-area d-flex gap-20">
               <a href="javascript:void(0)" class="btn"> Get Started </a>
