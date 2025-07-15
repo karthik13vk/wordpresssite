@@ -1,0 +1,92 @@
+@media screen and (max-width: 767px) {
+    .banner-section .banner-content-section {
+        flex-direction: column-reverse;
+    }
+    .main-title {
+        font-size: 36px;
+    }
+    .sub-title {
+        padding: 15px 20px 15px 20px;
+    }
+    .mobile-community-section .community-right {
+        margin-right: auto;
+        margin-left: 0;
+    }
+    .footer-section .footer-left {
+        padding-right: 10px;
+    }
+    .sm-grid-1{
+        grid-template-columns: repeat(1, 1fr)!important;
+    }
+    .sm-grid-2{
+        grid-template-columns: repeat(2, 1fr)!important;
+    }
+    .sm-grid-3{
+        grid-template-columns: repeat(3, 1fr)!important;
+    }
+    .sm-grid-4{
+        grid-template-columns: repeat(4, 1fr)!important;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .section-padding {
+        padding: 60px 0;
+    }
+ 
+    .banner-section .banner-content-section .banner-left {
+        width: 100%;
+    }
+    .banner-section .banner-content-section .banner-right {
+        width: 100%;
+    }
+    .container {
+        padding: 0 15px;
+    }
+    .banner-section .banner-content-section .banner-left h1 {
+        font-size: 40px;
+    }
+    /* .services-section .services-content-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    } */
+    .md-grid-1{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .md-grid-2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .md-grid-3{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .md-grid-4{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .services-section .services-inner-content .services-box {
+        padding: 25px 15px;
+        width: 90%;
+    }
+    .footer-section .footer-right .footer-part h5 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .customer-section .customer-left .customer-left-box img{
+        margin: auto;
+    }
+    .head-btn-area{
+        display: none;
+    }
+    .nav-section{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-btn{
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}

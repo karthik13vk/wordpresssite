@@ -1,0 +1,832 @@
+[2025-07-15 10:51:47] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
+[2025-07-15 10:51:47] [class-ss-archive-creation-job.php:120] Here's our task list: setup, fetch_urls, create_zip_archive, wrapup
+[2025-07-15 10:51:47] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
+[2025-07-15 10:51:47] [class-ss-archive-creation-job.php:194] Current task: setup
+[2025-07-15 10:51:47] [class-ss-archive-creation-job.php:208] Performing task: setup
+[2025-07-15 10:51:47] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-07-15 10:51:47] [class-ss-setup-task.php:33] Creating archive directory: D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707\
+[2025-07-15 10:51:47] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/wpstatic/
+[2025-07-15 10:51:47] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
+[2025-07-15 10:51:47] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-07-15 10:51:47] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-07-15 10:51:47] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-07-15 10:51:47] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/
+[2025-07-15 10:51:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-07-15 10:51:47] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c389e89-sVXUwS.tmp
+[2025-07-15 10:51:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/?simply_static_page=61
+[2025-07-15 10:51:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/?simply_static_page=61
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:103] Filesize: 34513 bytes
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c389e89-sVXUwS.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/index.html
+[2025-07-15 10:51:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:48] [class-ss-fetch-urls-task.php:159] Adding 27 URLs to the queue
+[2025-07-15 10:51:48] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:48] [class-ss-page.php:119] Checking Content Identical:c55a821d8e46d66195b44e29faa3fc3c198826c8===. Value: FALSE
+[2025-07-15 10:51:48] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-07-15 10:51:48] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-07-15 10:51:48] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-07-15 10:51:48] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-07-15 10:51:48] [class-ss-fetch-urls-task.php:69] Total pages: 27; Pages remaining: 26
+[2025-07-15 10:51:48] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/about/
+[2025-07-15 10:51:48] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 27
+[2025-07-15 10:51:48] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c4747d3-cUkvR6.tmp
+[2025-07-15 10:51:48] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/about/?simply_static_page=62
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/about/?simply_static_page=62
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:103] Filesize: 27635 bytes
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:233] New filename for static page: /about/index.html
+[2025-07-15 10:51:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c4747d3-cUkvR6.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/about/index.html
+[2025-07-15 10:51:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 24 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:185c5b70fa595a8bde8a6a1d594a38a6851a0d78===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/contact/
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c507cc7-9GJhZJ.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/contact/?simply_static_page=63
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/contact/?simply_static_page=63
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 25999 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /contact/index.html
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c507cc7-9GJhZJ.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/contact/index.html
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 19 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:eb13ddfd21334bb625bd2253639aa167f979c096===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/logo.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c586448-0biqmI.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/logo.png?simply_static_page=64
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/logo.png?simply_static_page=64
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 10092 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/logo.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c586448-0biqmI.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/logo.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:52a3c4d6ba497e995d72f76f262e48b7aeddbc54===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/rightarrow.svg
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c58ba38-7ofQoQ.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/rightarrow.svg?simply_static_page=65
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/rightarrow.svg?simply_static_page=65
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 381 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/rightarrow.svg
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c58ba38-7ofQoQ.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/rightarrow.svg
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:814202af2bb0bdec204405b23e0a236d30c5c0fc===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/banner-img.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c591555-8ajKEh.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/banner-img.png?simply_static_page=66
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/banner-img.png?simply_static_page=66
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 651402 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/banner-img.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c591555-8ajKEh.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/banner-img.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:f4485c54fa7beafa17c5b40b93aa14fb18d21359===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/digital-transformation.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c599a01-oxTRBe.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/digital-transformation.png?simply_static_page=67
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/digital-transformation.png?simply_static_page=67
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 5242 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/digital-transformation.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c599a01-oxTRBe.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/digital-transformation.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:b551b75b5fd83661992ef519d870a68fd8b04a49===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/cloud_devops.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5a007c-kODmit.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/cloud_devops.png?simply_static_page=68
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/cloud_devops.png?simply_static_page=68
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 4164 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/cloud_devops.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5a007c-kODmit.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/cloud_devops.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:da923e65230ce7d86268890bec7675f0eed0e431===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/saas-product-development.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5a6335-7EF57C.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/saas-product-development.png?simply_static_page=69
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/saas-product-development.png?simply_static_page=69
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 4146 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/saas-product-development.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5a6335-7EF57C.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/saas-product-development.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:f8a11ee63037c2ec30fa69a67f52fa4609acf823===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/unified-chat-solutions.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5b0bd3-8g8ci7.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/unified-chat-solutions.png?simply_static_page=70
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/unified-chat-solutions.png?simply_static_page=70
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 1745 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/unified-chat-solutions.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5b0bd3-8g8ci7.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/unified-chat-solutions.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:396508d15c10c86b9e68c19fa0109fb9a65154f8===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/media-streaming-ott.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5b7bbe-6CoRPN.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/media-streaming-ott.png?simply_static_page=71
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/media-streaming-ott.png?simply_static_page=71
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 3754 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/media-streaming-ott.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5b7bbe-6CoRPN.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/media-streaming-ott.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:d4def34c3c013bebb3bc2e2560a4a5edf6644ebe===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/iot-connected-vehicles.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5bec95-XNKwfz.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/iot-connected-vehicles.png?simply_static_page=72
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/iot-connected-vehicles.png?simply_static_page=72
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 4667 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/iot-connected-vehicles.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5bec95-XNKwfz.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/iot-connected-vehicles.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:b79aa7ffcac64f213a4b9febb0bfe9e45ed7cd4b===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/true.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5c638e-pUo4R4.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/true.png?simply_static_page=73
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/true.png?simply_static_page=73
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 3987 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/true.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5c638e-pUo4R4.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/true.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:3523a1a76db90f4b43d912db27099f7831b17609===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/great-work.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5ce1cd-VsofCV.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/great-work.png?simply_static_page=74
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/great-work.png?simply_static_page=74
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 52620 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/great-work.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5ce1cd-VsofCV.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/great-work.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:c6d160685522855bca9b56cd727be7e8080249f7===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/footer-logo.png
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5d5b3b-tUFnYV.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/footer-logo.png?simply_static_page=75
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/footer-logo.png?simply_static_page=75
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 2384 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/footer-logo.png
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5d5b3b-tUFnYV.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/footer-logo.png
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:c82739c702ab3a6805b3a1fee16e7b6f2170fcc1===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/js/main.js
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5de859-OjTpBN.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/js/main.js?simply_static_page=76
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/js/main.js?simply_static_page=76
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:103] Filesize: 700 bytes
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/javascript
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/js/main.js
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5de859-OjTpBN.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/js/main.js
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:49] [class-ss-page.php:119] Checking Content Identical:82184cc27786d159eb8b09d1a98dcb2b3f77e724===. Value: FALSE
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/bg-video.mp4
+[2025-07-15 10:51:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 27
+[2025-07-15 10:51:49] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c5e65cf-fjXKA2.tmp
+[2025-07-15 10:51:49] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/bg-video.mp4?simply_static_page=77
+[2025-07-15 10:51:49] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/images/bg-video.mp4?simply_static_page=77
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:103] Filesize: 7635666 bytes
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: video/mp4
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/images/bg-video.mp4
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c5e65cf-fjXKA2.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/images/bg-video.mp4
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:50] [class-ss-page.php:119] Checking Content Identical:b4fa6457dc6c214a3a67def4c38e83173f4778fa===. Value: FALSE
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-270x270.png
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c61c339-KLAB2v.tmp
+[2025-07-15 10:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-270x270.png?simply_static_page=78
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-270x270.png?simply_static_page=78
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:103] Filesize: 18418 bytes
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/cropped-favicon-270x270.png
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c61c339-KLAB2v.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/uploads/2025/07/cropped-favicon-270x270.png
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:50] [class-ss-page.php:119] Checking Content Identical:32b9639aa724e48b2ad3e0a3fc35889ecafca31f===. Value: FALSE
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-includes/css/dist/block-library/style.min.css
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c624dba-62me6Y.tmp
+[2025-07-15 10:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-includes/css/dist/block-library/style.min.css?simply_static_page=79
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-includes/css/dist/block-library/style.min.css?simply_static_page=79
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:103] Filesize: 116363 bytes
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c624dba-62me6Y.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-includes/css/dist/block-library/style.min.css
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:50] [class-ss-page.php:119] Checking Content Identical:8c82643ef63a8389c1b800b7c5d0af9d684b8b24===. Value: FALSE
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/style.css
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c635d7e-ZFRiIt.tmp
+[2025-07-15 10:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/style.css?simply_static_page=80
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/style.css?simply_static_page=80
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:103] Filesize: 11189 bytes
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/style.css
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c635d7e-ZFRiIt.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/style.css
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:50] [class-ss-page.php:119] Checking Content Identical:649f12fcdc0eeb601c52b3072c294ecace073c48===. Value: FALSE
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/responsive.css
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c6418d6-WRV0Oi.tmp
+[2025-07-15 10:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/responsive.css?simply_static_page=81
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/responsive.css?simply_static_page=81
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:103] Filesize: 2228 bytes
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/responsive.css
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c6418d6-WRV0Oi.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/responsive.css
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:50] [class-ss-page.php:119] Checking Content Identical:9a91a55e9fc769d64620cb49347f8df68fb33326===. Value: FALSE
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/font.css
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c64a6bc-HYGIWz.tmp
+[2025-07-15 10:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/font.css?simply_static_page=82
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/font.css?simply_static_page=82
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:103] Filesize: 3348 bytes
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/font.css
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c64a6bc-HYGIWz.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/font.css
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:159] Adding 28 URLs to the queue
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:50] [class-ss-page.php:119] Checking Content Identical:bf32ae01a44ad1115705343b5dae2e8e6985adba===. Value: FALSE
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-json/
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/wpstatic/wp-json/
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/xmlrpc.php
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/wpstatic/xmlrpc.php
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-32x32.png
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c6735ba-FYo7j9.tmp
+[2025-07-15 10:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-32x32.png?simply_static_page=85
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-32x32.png?simply_static_page=85
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:103] Filesize: 965 bytes
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/cropped-favicon-32x32.png
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c6735ba-FYo7j9.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/uploads/2025/07/cropped-favicon-32x32.png
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:50] [class-ss-page.php:119] Checking Content Identical:efcaf6ce95ab68dd64d326ba865c147d1926ca9a===. Value: FALSE
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-192x192.png
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c67ccd6-C3JZSp.tmp
+[2025-07-15 10:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-192x192.png?simply_static_page=86
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-192x192.png?simply_static_page=86
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:103] Filesize: 10903 bytes
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/cropped-favicon-192x192.png
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c67ccd6-C3JZSp.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/uploads/2025/07/cropped-favicon-192x192.png
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:50] [class-ss-page.php:119] Checking Content Identical:403600d79c4df6b4385355a98d65529e4bc6c2ef===. Value: FALSE
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-180x180.png
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 27
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c6867c6-3rj69c.tmp
+[2025-07-15 10:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-180x180.png?simply_static_page=87
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/uploads/2025/07/cropped-favicon-180x180.png?simply_static_page=87
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:103] Filesize: 10064 bytes
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/07/cropped-favicon-180x180.png
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c6867c6-3rj69c.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/uploads/2025/07/cropped-favicon-180x180.png
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:50] [class-ss-page.php:119] Checking Content Identical:d15be3ca2692307b24ce754997370a46836c7aab===. Value: FALSE
+[2025-07-15 10:51:50] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 27 pages/files
+[2025-07-15 10:51:50] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-07-15 10:51:50] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-07-15 10:51:50] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:69] Total pages: 60; Pages remaining: 33
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-json/wp/v2/pages/21
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 60
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/wpstatic/wp-json/wp/v2/pages/21
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-json/oembed/1.0/embed
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 60
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/wpstatic/wp-json/oembed/1.0/embed
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-json/wp/v2/pages/24
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 60
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://localhost/wpstatic/wp-json/wp/v2/pages/24
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/css/IBM_Plex_Sans/font.css
+[2025-07-15 10:51:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 60
+[2025-07-15 10:51:50] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c6a2a07-j8rWZD.tmp
+[2025-07-15 10:51:50] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/css/IBM_Plex_Sans/font.css?simply_static_page=91
+[2025-07-15 10:51:50] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/css/IBM_Plex_Sans/font.css?simply_static_page=91
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:103] Filesize: 34530 bytes
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c71e50e-5aoB7r.tmp
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/css/IBM_Plex_Sans/font.css
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:103] Filesize: 34530 bytes
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-07-15 10:51:51] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/images/banner-icon.svg
+[2025-07-15 10:51:51] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 60
+[2025-07-15 10:51:51] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c789bcf-0jZx6b.tmp
+[2025-07-15 10:51:51] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/images/banner-icon.svg?simply_static_page=92
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/images/banner-icon.svg?simply_static_page=92
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:103] Filesize: 34530 bytes
+[2025-07-15 10:51:51] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c80186d-GQKXEN.tmp
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/images/banner-icon.svg
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:103] Filesize: 34530 bytes
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff2
+[2025-07-15 10:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 60
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c8997df-QFeKiA.tmp
+[2025-07-15 10:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff2?simply_static_page=93
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff2?simply_static_page=93
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:103] Filesize: 60120 bytes
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff2
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c8997df-QFeKiA.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff2
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:52] [class-ss-page.php:119] Checking Content Identical:bc3b1482fcd3194d3de89a33fbfb440172c0be10===. Value: FALSE
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff
+[2025-07-15 10:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 60
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c8aa70d-Nh4dIT.tmp
+[2025-07-15 10:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff?simply_static_page=94
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff?simply_static_page=94
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:103] Filesize: 83396 bytes
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c8aa70d-Nh4dIT.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-BoldItalic.woff
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:52] [class-ss-page.php:119] Checking Content Identical:83278a5281f9119e235c7a7397a3b7fc77482a79===. Value: FALSE
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff2
+[2025-07-15 10:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 60
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c8b8be5-SCASnf.tmp
+[2025-07-15 10:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff2?simply_static_page=95
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff2?simply_static_page=95
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:103] Filesize: 60332 bytes
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff2
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c8b8be5-SCASnf.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff2
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:52] [class-ss-page.php:119] Checking Content Identical:9085f5b62dfe5705feca1409a3c6daf71563831a===. Value: FALSE
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff
+[2025-07-15 10:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 60
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c8c52c7-lDpc2B.tmp
+[2025-07-15 10:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff?simply_static_page=96
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff?simply_static_page=96
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:103] Filesize: 83472 bytes
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c8c52c7-lDpc2B.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLight.woff
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:52] [class-ss-page.php:119] Checking Content Identical:ab31a11e3dfd9032f339f2e519a1299208a7a068===. Value: FALSE
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff2
+[2025-07-15 10:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 60
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c8d1d55-0rOLbU.tmp
+[2025-07-15 10:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff2?simply_static_page=97
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff2?simply_static_page=97
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:103] Filesize: 60596 bytes
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff2
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c8d1d55-0rOLbU.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff2
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:52] [class-ss-page.php:119] Checking Content Identical:046bd970cbfb01a91bcfccc116586a7e2e61609b===. Value: FALSE
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff
+[2025-07-15 10:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 60
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c8e1b3b-uvMOEA.tmp
+[2025-07-15 10:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff?simply_static_page=98
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff?simply_static_page=98
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:103] Filesize: 83660 bytes
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c8e1b3b-uvMOEA.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Italic.woff
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:52] [class-ss-page.php:119] Checking Content Identical:cb42301410da62e3c14b29be243eed28a1511e0b===. Value: FALSE
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff2
+[2025-07-15 10:51:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 60
+[2025-07-15 10:51:52] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c8ee317-8UW5Ej.tmp
+[2025-07-15 10:51:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff2?simply_static_page=99
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff2?simply_static_page=99
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:103] Filesize: 56660 bytes
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff2
+[2025-07-15 10:51:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c8ee317-8UW5Ej.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff2
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:b212f891e9013ba71c3ca57597898a49dc22f69d===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c906f42-V8rQJQ.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff?simply_static_page=100
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff?simply_static_page=100
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 78348 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c906f42-V8rQJQ.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Bold.woff
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:c488ca57e0c63ec174dc5e2de2c8ed604fe64e0d===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff2
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c913e7d-H6KaJW.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff2?simply_static_page=101
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff2?simply_static_page=101
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 64204 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c913e7d-H6KaJW.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff2
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:b5525759f4c299af24b0eaf43207232fe213bdf8===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c9200a3-eUuVub.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff?simply_static_page=102
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff?simply_static_page=102
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 89044 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c9200a3-eUuVub.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ExtraLightItalic.woff
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:791bd9e10dbba06d4bee8c5f92bd4b871393022d===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff2
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c92ec89-7vj5WC.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff2?simply_static_page=103
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff2?simply_static_page=103
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 63940 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c92ec89-7vj5WC.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff2
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:3e25e1357aa6bc6045e5639b1ef815a39f6a95c1===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c93caa1-uiE1OI.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff?simply_static_page=104
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff?simply_static_page=104
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 88748 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c93caa1-uiE1OI.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-LightItalic.woff
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:5690f1ca50f2919dc091a7e378d815105af7e49f===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff2
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c94a82c-xeSwhV.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff2?simply_static_page=105
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff2?simply_static_page=105
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 60056 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c94a82c-xeSwhV.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff2
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:08d03cdec6ac730fa0bab1879b60439856f2a656===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c95afd7-NrSy8n.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff?simply_static_page=106
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff?simply_static_page=106
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 82996 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c95afd7-NrSy8n.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Medium.woff
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:e4327c4d40db4b1707ff4f760c5cfb5c4f8a07aa===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff2
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c96dfef-YriuOc.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff2?simply_static_page=107
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff2?simply_static_page=107
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 64416 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c96dfef-YriuOc.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff2
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:94dd96703d707f8a0f57800c586bacdb8d9ee5be===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c97c863-ieZWud.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff?simply_static_page=108
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff?simply_static_page=108
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 88872 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c97c863-ieZWud.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-MediumItalic.woff
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:c5115791a69c9ad60e70fc1a8ef1dbfe5d4afa90===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff2
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c98b7e2-MUDl8O.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff2?simply_static_page=109
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff2?simply_static_page=109
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 60468 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c98b7e2-MUDl8O.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff2
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:52d3100921b78d65ac881a10209db493f66ae669===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c99f268-lVY9rZ.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff?simply_static_page=110
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff?simply_static_page=110
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 83288 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c99f268-lVY9rZ.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBold.woff
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:cd8070b0d1fdbf706a957bb4da0ae408cd121a87===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff2
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c9aef3b-tCtNbb.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff2?simply_static_page=111
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff2?simply_static_page=111
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 59900 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c9aef3b-tCtNbb.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff2
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:0b7bb8fed604bed44425440db6a9528ee4a44e04===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c9bea19-6q7xaR.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff?simply_static_page=112
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff?simply_static_page=112
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 83152 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c9bea19-6q7xaR.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Light.woff
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:5bfdbe386a6cea50b2e70b3bc5786b217e6a1480===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff2
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c9d35f6-uvBOba.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff2?simply_static_page=113
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff2?simply_static_page=113
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 56380 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff2
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c9d35f6-uvBOba.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff2
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:53] [class-ss-page.php:119] Checking Content Identical:82c436b6919063d62ffa6628e02f57d97b6431c3===. Value: FALSE
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff
+[2025-07-15 10:51:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 60
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632c9e490c-juaXBR.tmp
+[2025-07-15 10:51:53] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff?simply_static_page=114
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff?simply_static_page=114
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:103] Filesize: 78752 bytes
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff
+[2025-07-15 10:51:53] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632c9e490c-juaXBR.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Regular.woff
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:53] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:54] [class-ss-page.php:119] Checking Content Identical:e89c1a6bd5cff10649bfcf57be8cd62894ee0202===. Value: FALSE
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff2
+[2025-07-15 10:51:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 60
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632ca058b2-E1bnfF.tmp
+[2025-07-15 10:51:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff2?simply_static_page=115
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff2?simply_static_page=115
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:103] Filesize: 55968 bytes
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff2
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632ca058b2-E1bnfF.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff2
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:54] [class-ss-page.php:119] Checking Content Identical:51328018130d066c63a3c5ff0d332c08ef146d11===. Value: FALSE
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff
+[2025-07-15 10:51:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 60
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632ca16576-gTcFaO.tmp
+[2025-07-15 10:51:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff?simply_static_page=116
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff?simply_static_page=116
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:103] Filesize: 78320 bytes
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632ca16576-gTcFaO.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-Thin.woff
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:54] [class-ss-page.php:119] Checking Content Identical:d0860974b97ba43246115990269d56ef2b51ca94===. Value: FALSE
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff2
+[2025-07-15 10:51:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 60
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632ca2bd19-XLJL1L.tmp
+[2025-07-15 10:51:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff2?simply_static_page=117
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff2?simply_static_page=117
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:103] Filesize: 60576 bytes
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff2
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632ca2bd19-XLJL1L.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff2
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:54] [class-ss-page.php:119] Checking Content Identical:a96c6cd0b8f0de2c5781c295bf67c8ba5531a4d6===. Value: FALSE
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff
+[2025-07-15 10:51:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 60
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632ca42dce-Xkz8gU.tmp
+[2025-07-15 10:51:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff?simply_static_page=118
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff?simply_static_page=118
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:103] Filesize: 84676 bytes
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632ca42dce-Xkz8gU.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-ThinItalic.woff
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:54] [class-ss-page.php:119] Checking Content Identical:4b2cd0da0396be03e7cb5cc53543bbdf0f9efacd===. Value: FALSE
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff2
+[2025-07-15 10:51:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 60
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632ca547b8-b0fDUy.tmp
+[2025-07-15 10:51:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff2?simply_static_page=119
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff2?simply_static_page=119
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:103] Filesize: 63564 bytes
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff2
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632ca547b8-b0fDUy.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff2
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:54] [class-ss-page.php:119] Checking Content Identical:a42e4b3aed4c6a0bbcb69da9f9ca5155a4dd2b25===. Value: FALSE
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:73] URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff
+[2025-07-15 10:51:54] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 60
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\vijay\AppData\Local\Temp/687632ca6a359-C0G2N2.tmp
+[2025-07-15 10:51:54] [class-ss-page-handler.php:38] URL Prepared:http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff?simply_static_page=120
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/wpstatic/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff?simply_static_page=120
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:103] Filesize: 87964 bytes
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff
+[2025-07-15 10:51:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\vijay\AppData\Local\Temp/687632ca6a359-C0G2N2.tmp to D:\xampp\htdocs\wpstatic/wp-content/uploads\simply-static\temp-files/simply-static-1-1752576707/wp-content/themes/my-html-theme/assets/css/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.woff
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-07-15 10:51:54] [class-ss-page.php:119] Checking Content Identical:f366fe9e5fd0bf7ee3b02cf1b4cf68fa382a5aef===. Value: FALSE
+[2025-07-15 10:51:54] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 27 of 60 pages/files
+[2025-07-15 10:51:54] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-07-15 10:51:54] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-07-15 10:51:54] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-07-15 10:51:54] [class-ss-fetch-urls-task.php:69] Total pages: 60; Pages remaining: 0
+[2025-07-15 10:51:54] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 60 of 60 pages/files
+[2025-07-15 10:51:54] [class-ss-archive-creation-job.php:233] We've found our next task: create_zip_archive
+[2025-07-15 10:51:54] [class-ss-archive-creation-job.php:194] Current task: create_zip_archive
+[2025-07-15 10:51:54] [class-ss-archive-creation-job.php:208] Performing task: create_zip_archive
+[2025-07-15 10:51:54] [class-ss-create-zip-archive.php:85] Fetching list of files to include in zip
+[2025-07-15 10:51:54] [class-ss-create-zip-archive.php:94] Creating zip archive
+[2025-07-15 10:51:54] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a download href="http://localhost/wpstatic/wp-content/uploads/simply-static/temp-files/simply-static-1-1752576707.zip">Click here to download</a>
+[2025-07-15 10:51:54] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
+[2025-07-15 10:51:55] [class-ss-archive-creation-job.php:194] Current task: wrapup
+[2025-07-15 10:51:55] [class-ss-archive-creation-job.php:208] Performing task: wrapup
+[2025-07-15 10:51:55] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-07-15 10:51:55] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-07-15 10:51:55] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
+[2025-07-15 10:51:55] [class-ss-archive-creation-job.php:273] Completing the job
+[2025-07-15 10:51:55] [class-ss-archive-creation-job.php:414] Status message: [done] Done! Finished in 00:00:08
